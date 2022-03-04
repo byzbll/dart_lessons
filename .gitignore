@@ -1,0 +1,28 @@
+
+# Bkz. https://www.dartlang.org/guides/libraries/private-files
+
+# pub tarafından oluşturulan dosyalar ve dizinler
+.dart_tool /
+.paketler
+inşa /
+# Bir uygulama oluşturuyorsanız, pubspec.lock'unuzu kontrol etmek isteyebilirsiniz.
+pubspec.lock
+
+# Dartdoc tarafından oluşturulan dizin
+# Belgeleri yerel olarak oluşturmuyorsanız bu satırı kaldırabilirsiniz.
+belge / API /
+
+# dotenv ortam değişkenleri dosyası
+.env *
+
+# Oluşturulan Javascript dosyalarını işlemekten kaçının:
+* .dart.js
+* .info.json       # --dump -info bayrağı tarafından üretilir.
+* .js              # Dart2js tarafından oluşturulduğunda. *.js'yi belirtmeyin.
+                 # proje JavaScript ile yazılmış kaynak dosyaları içeriyor.
+* .js_
+* .js.deps
+* .js.harita
+
+.flutter-eklentiler
+.flutter-eklentileri-bağımlılıkları
